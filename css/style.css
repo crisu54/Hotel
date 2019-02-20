@@ -1,3 +1,6 @@
+body{
+	margin:0;
+}
 #logo-wrapper{
 	width:100%;
 	background-color:#8e8066;
@@ -38,9 +41,20 @@
 	padding:0;
 
 }
-h3{
-		margin:0;
-	padding:0;
 
-	
+#nav ul{
+	margin:0;
+}
+
+#nav li{
+	float:left;
+	position:relative;
+	left:30%;
+	font-size:2em;
+	font-family:verdana;
+	margin:25px;
+
+}
+#nav a{
+	color:white;
 }
