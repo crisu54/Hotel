@@ -68,5 +68,27 @@ body{
 	height:860px;
 	display:inline-box;
 	clear:both;
+}
+.hgrund{
+	background-color:#dec197;
+	padding-top:600px;
 
+}
+h2{
+	margin:0;
+}
+
+.welcome{
+	width:40%;
+	float:left;
+	padding-left:10%;
+	position:relative;
+	display:inline-block;
+	top: -530px;
+}
+#sidebar{
+	float:right;
+	position:relative;
+	width:40%;
+	top: -530px;	
 }
