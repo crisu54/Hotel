@@ -71,8 +71,11 @@ body{
 }
 .hgrund{
 	background-color:#dec197;
-	padding-top:600px;
-
+}
+.hgrund:after{
+	clear:both;
+	content:"."
+	display:table;
 }
 h2{
 	margin:0;
@@ -81,14 +84,15 @@ h2{
 .welcome{
 	width:40%;
 	float:left;
-	padding-left:10%;
-	position:relative;
-	display:inline-block;
-	top: -530px;
+	padding: 5% 10% 0 10%;
 }
+
 #sidebar{
-	float:right;
-	position:relative;
 	width:40%;
-	top: -530px;	
+	display:inline-block;
+	padding-top:5%;
+}
+
+#main{
+	clear:both;
 }
