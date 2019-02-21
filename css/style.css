@@ -225,25 +225,51 @@ ul.liste{
 }
 
 .fcontainer{
-	xbackground-color:khaki;
-	width:100%;
 	display:flex;
+	padding-top:30px;
 	justify-content: center;
 	flex-wrap:no-wrap;
 	align-content: center;
 }
 .item{
 	background-color: pink;
-	width:370px;
+	width:25%;
 	
 	margin:20px;
 	padding:1%;
 	font-family:verdana;
 }
 h2.uschrift{
-	font-size:1.8em;
+	font-size:2.1vw;
 	line-height:60px;
+}
+.item img{
+	width:100%;
+}
 
+.item:nth-child(2){
+	background-color:#f8d696;
+	
+}
+
+.item:first-child, .item:last-child {
+	background-color:#a54c0b;
+	color:white;
+}
+
+#footer{
+	background-color:#a94b05;
+		padding:60px;
+}
+
+.schiff {
+	position:relative;
+	background-color:red;
+	width:37%;
+	left:3%;
+	top:-40px;
+	float:left;
+	display:block;
 
 }
 
