@@ -258,26 +258,66 @@ h2.uschrift{
 }
 
 #footer{
-	background-color:#a94b05;
-	padding:60px;
+	background-color:black;
+	padding:30px;
 }
 .schiff{
-	width:28%;
+	width:35%;
+	padding-left:4.5%;
 	display:inline-block;
 	float:left;
 }
 .schiff a{
 	display:block;
-	
-
 }
+
+.schiff p{
+	color:white;
+	font-family:verdana;
+}
+
 .schiff img{
 	width:100%;
 }
-
+.pers{
+	font-size:35px;
+	font-family:helvetica;
+	color: white;
+	padding-left:50px;
+}
 .pe{
 	float:left;
+	padding-left:50px;
 	}
+.pe li{
+	list-style:none;
+	font-size:20px;
+	color:white;
+	font-family:helvetica;
+}
+.kont{
+	font-size:35px;
+	font-family:helvetica;
+	color: white;
+	padding-left:38px;
+}
+
+.ko{
+	float:left;
+	padding-left:50px;
+}
+
+.ko li{
+	list-style:none;
+	font-size:20px;
+	color:white;
+	font-family:helvetica;
+}
+.container:after{
+	clear:left;
+	display:table;
+	content:"";
+}
 	
 
 
