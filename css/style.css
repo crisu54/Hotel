@@ -259,19 +259,29 @@ h2.uschrift{
 
 #footer{
 	background-color:#a94b05;
-		padding:60px;
+	padding:60px;
 }
-
-.schiff {
-	position:relative;
-	background-color:red;
-	width:37%;
-	left:3%;
-	top:-40px;
+.schiff{
+	width:28%;
+	display:inline-block;
 	float:left;
+}
+.schiff a{
 	display:block;
+	
 
 }
+.schiff img{
+	width:100%;
+}
+
+.pe{
+	float:left;
+	}
+	
+
+
+
 
 
 
