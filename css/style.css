@@ -15,9 +15,15 @@ body{
 	background: rgba(255, 255, 255, 0.3);
 	z-index:2;
 	top:60px;
-	
 }
-
+#blocklogo h1{
+	font-size:6.5vw;
+	display:inline;
+	color:red;
+	position:absolute;
+	top: -70px;
+	left: 30%; 
+}
 .blogo img{
 	margin:0px;
 	position:relative;
@@ -26,14 +32,14 @@ body{
 	display:inline-block
 }
 
-.blogo h1{
-	font-size:6em;
+/* .blogo h1{
+	font-size:6.5vw;
 	display:inline-box;
 	color:red;
 	position:absolute;
 	top: -70px;
-	left: 30%
-}
+	left: 30%;
+} */
 
 .nav *{
 	margin:0;
@@ -46,14 +52,18 @@ body{
 	align-items: center;
 	justify-content: center;
 	color: #fff;
-	background: #cb3529;
-	height: 50px;
+	background: black;
+	height: 70px;
 	font-weight: bold;
 	font-family: verdana;
 	text-decoration: none;
 	text-transform:uppercase;
 }
 
+.nav{
+	position:sticky;
+	top:0;
+}
 .nav a:hover{
 	background: tomato;
 	color: #fff;
@@ -206,10 +216,10 @@ h2.osteria{
 	padding-right:10%;
 }
 .bewa{
-	font-size:2.3em;
 	font-family:verdana;
 	padding-left:20px;
-	color:#83590c
+	color:#83590c;
+	font-size:2.1vw;
 }
 ul.liste{
 	font-size:1.2em;
