@@ -31,17 +31,17 @@ body{
 	display:inline-box;
 	color:red;
 	position:absolute;
-	top: 0px;
+	top: -70px;
 	left: 30%
 }
 
-*{
+.nav *{
 	margin:0;
 	padding:0;
 	box-sizing: border-box;
 }
 
-.menu-area a{
+.nav a{
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -54,22 +54,22 @@ body{
 	text-transform:uppercase;
 }
 
-.menu-area a:hover{
+.nav a:hover{
 	background: tomato;
 	color: #fff;
 }
 
-.menu-area ul{
+.nav ul{
 	list-style: none;
 	display: flex;
 }
 
-.menu-area ul li{
+.nav ul li{
 	position: relative;
 	width: 100%;
 	text-align: center;
 }
-.menu-area li:hover .dropdown-1 >  li{
+.nav li:hover .dropdown-1 >  li{
 	top: 0;
 	display: block;
 }
@@ -116,8 +116,6 @@ body{
 	color: #ffff;
 	font-size: 60px;
 	font-family: cursive;
-	
-	
 }
 
 
@@ -175,7 +173,7 @@ h2{
 .welcome{
 	width:40%;
 	float:left;
-	padding: 5% 10% 0 10%;
+	padding: 5% 10% 0 7%;
 }
 
 .wcom{
@@ -204,7 +202,8 @@ h2.osteria{
 	background-color:#d0cfcc;
 	border:dashed 4px #acaba9;
   border-radius: 20px;
-	padding:2%;
+	padding:1%;
+	padding-right:10%;
 }
 .bewa{
 	font-size:2.3em;
@@ -224,3 +223,29 @@ ul.liste{
 	clear:both;
 	background-color:#bdbbb9;
 }
+
+.fcontainer{
+	xbackground-color:khaki;
+	width:100%;
+	display:flex;
+	justify-content: center;
+	flex-wrap:no-wrap;
+	align-content: center;
+}
+.item{
+	background-color: pink;
+	width:370px;
+	
+	margin:20px;
+	padding:1%;
+	font-family:verdana;
+}
+h2.uschrift{
+	font-size:1.8em;
+	line-height:60px;
+
+
+}
+
+
+
