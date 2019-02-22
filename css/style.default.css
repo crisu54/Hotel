@@ -191,7 +191,7 @@ h2{
 .seite{
 	width:80%;
 	background-color:#d0cfcc;
-	border:dashed 4px #acaba9;
+	xborder:dashed 4px #acaba9;
   border-radius: 20px;
 	padding:1%;
 	padding-right:10%;

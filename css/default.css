@@ -96,131 +96,10 @@ body{
 	left: 100%;
 	width: 200px;
 }
-.banner{
-	background-image:url(../images/bett.png);
-	background-size:cover;
-	background-position: center;
-	display: flex;
-	align-items: center;
-	justify-content:center;
-	xheight: calc(100vh - 50px);
-}
-.banner h2{
-	text-transform: uppercase;
-	color: #ffff;
-	font-size: 60px;
-	font-family: cursive;
-}
-
-#banner{
-	background-image:url(../images/schlafz.png);
-	background-color:red;
-	background-size:cover;
-	height:860px;
-	display:inline-box;
-	clear:both;
-}
-.hgrund{
-	background-color:#dec197;
-}
-.hgrund:after{
-	clear:both;
-	content:"";
-	display:table;
-}
-h2{
-	margin:0;
-}
-.seite{
-	text-align:right;
-}
-
-.welcome{
-	width:40%;
-	float:left;
-	padding: 5% 10% 0 7%;
-}
-
-.wcom{
-	font-family:Helvetica;
-	font-size:3em;
-	color:#83590c
-}
-
-h2.osteria{
-	font-size:2.2em;
-	color:red;
-}
-
-.teco{
-	font-size:0.9em;
-	font-family:helvetica;
-}
-
-#sidebar{
-	width:40%;
-	display:inline-block;
-	padding-top:5%;
-}
-.seite{
-	width:80%;
-	background-color:#d0cfcc;
-	border:dashed 4px #acaba9;
-  border-radius: 20px;
-	padding:1%;
-	padding-right:10%;
-}
-.bewa{
-	font-family:verdana;
-	padding-left:20px;
-	color:#83590c;
-	font-size:2.1vw;
-}
-ul.liste{
-	font-size:1.2em;
-	line-height:30px;
-	font-family:Helvetica;
-}
-
-#main{
-	clear:both;
-	background-color:#bdbbb9;
-}
-
-.fcontainer{
-	display:flex;
-	padding-top:30px;
-	justify-content: center;
-	flex-wrap:no-wrap;
-	align-content: center;
-}
-.item{
-	background-color: pink;
-	width:25%;
+	/*--------------Ende Navigation-------------------*/
 	
-	margin:20px;
-	padding:1%;
-	font-family:verdana;
-}
-h2.uschrift{
-	font-size:2.1vw;
-	line-height:60px;
-}
-.item img{
-	width:100%;
-}
-
-.item:nth-child(2){
-	background-color:#f8d696;
-	
-}
-
-.item:first-child, .item:last-child {
-	background-color:#a54c0b;
-	color:white;
-}
-
-#footer{
+	/*--------------Footerbereich-------------------*/	
+	#footer{
 	background-color:black;
 	padding:30px;
 }
@@ -281,10 +160,5 @@ h2.uschrift{
 	display:table;
 	content:"";
 }
-	
 
-
-
-
-
-
+	/*--------------Ende Footerbereich-------------------*/	
