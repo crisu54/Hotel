@@ -43,7 +43,6 @@ h2{
 }
 .buchen{
 	clear:both;
-	padding-right:8.6%;
 }
 
 .buch p{
@@ -74,15 +73,14 @@ h2.osteria{
 }
 
 #sidebar{
-	width:40%;
+	width:30%;
+	padding-right:6.6%;
 	display:inline-block;
 	padding-top:5%;
 	float:right;
 }
 .seite{
-
   border-radius: 20px;
-	padding-right:10%;
 	text-align:right;
 
 }
@@ -191,7 +189,7 @@ h2.uschrift{
 }
 
 .slider-hgrund{
-	background-color:#fae2d0;
+	background-color:#914106;
 	padding:5%;
 }
 
