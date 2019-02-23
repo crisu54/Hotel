@@ -51,14 +51,26 @@ h2{
 }
 
 .welcome{
-	width:40%;
+	width:56.6%;
 	float:left;
-	padding: 5% 10% 0 6.6%;
+	padding: 5% 0 0 6.6%;
+}
+
+.welcom p{
+	overflow:auto;
+}
+
+.welcom img{
+	float:right;
+}
+
+.welcom section{
+	width:70%;
 }
 
 .wcom{
 	font-family:Helvetica;
-	font-size:3em;
+	font-size:2.5em;
 	color:#83590c
 }
 
@@ -67,8 +79,8 @@ h2.osteria{
 	color:red;
 }
 
-.teco{
-	font-size:0.9em;
+p {
+	font-size:1.1em;
 	font-family:helvetica;
 }
 
