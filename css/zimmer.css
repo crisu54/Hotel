@@ -141,7 +141,7 @@ h2.uschrift{
 }
 .zimmer{
 	background-color:#f6aa72;
-	xpadding-top:000px;
+	padding-bottom: 5%;
 
 }	
 	
@@ -156,6 +156,7 @@ h2.uschrift{
 	xbackground-color:yellow;
 	float:left;
 	margin-left:6.6%;
+	
 }
 
 .zbox{
@@ -196,7 +197,7 @@ img{
 
 .slyder-hgrund{
 	background-color:#fae2d0;
-	padding:200px;
+	padding:20%;
 
 }
 
