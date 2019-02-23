@@ -195,8 +195,10 @@ img{
 	font-family:helvetica;
 }
 
-.slyder-hgrund{
+.slider-hgrund{
 	background-color:#fae2d0;
+	padding:5%;
+
 
 
 }
@@ -206,6 +208,6 @@ background-color:red;
 margin:0px;
 padding:0px;
 height:450px;
-width:100%;
+width:80%;
 }
 
