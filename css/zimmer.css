@@ -41,27 +41,20 @@ h2{
 	margin:0;
 
 }
-.seite{
-	text-align:right;
-	width:60%;
-}
 .buchen{
 	clear:both;
-	margin:right;
-	padding-left:35%;
+	padding-right:8.6%;
 }
 
 .buch p{
 	font-size:1.5em;
 	font-family:helvetica;
-	position:relative;
-	left:18%;
 }
 
 .welcome{
 	width:40%;
 	float:left;
-	padding: 5% 10% 0 7%;
+	padding: 5% 10% 0 6.6%;
 }
 
 .wcom{
@@ -84,12 +77,14 @@ h2.osteria{
 	width:40%;
 	display:inline-block;
 	padding-top:5%;
+	float:right;
 }
 .seite{
-	width:80%;
+
   border-radius: 20px;
-	padding:1%;
 	padding-right:10%;
+	text-align:right;
+
 }
 .bewa{
 	font-family:verdana;
@@ -170,7 +165,7 @@ h2.uschrift{
 	width:38.5%;
 	xbackground-color:yellow;
 	float:right;
-	margin-right:10%;
+	margin-right:6.6%;
 }	
 .boxschrift{
 	margin:0;
@@ -186,7 +181,7 @@ h2.uschrift{
 	color:#7f3803;
 	padding-left:270px;
 }
-img{
+.zbox img{
 	float:left;
 }
 .preis{
@@ -198,16 +193,7 @@ img{
 .slider-hgrund{
 	background-color:#fae2d0;
 	padding:5%;
-
-
-
 }
 
-.flexslider{
-background-color:red;
-margin:0px;
-padding:0px;
-height:450px;
-width:80%;
-}
+
 
