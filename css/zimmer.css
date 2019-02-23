@@ -56,22 +56,22 @@ h2{
 	padding: 5% 0 0 6.6%;
 }
 
-.welcom p{
+.welcome p{
 	overflow:auto;
 }
 
-.welcom img{
+.welcome img{
 	float:right;
 }
 
-.welcom section{
+.welcome section{
 	width:70%;
 }
 
 .wcom{
 	font-family:Helvetica;
 	font-size:2.5em;
-	color:#83590c
+	color:#83590c;
 }
 
 h2.osteria{
