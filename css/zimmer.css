@@ -24,7 +24,7 @@
 	clear:both;
 }
 .hgrund{
-	background-color:#dec197;
+	background-color:#c6c4c3;
 }
 .hgrund:after{
 	clear:both;
@@ -33,6 +33,7 @@
 }
 h2{
 	margin:0;
+
 }
 .seite{
 	text-align:right;
@@ -122,8 +123,9 @@ h2.uschrift{
 	color:white;
 }
 .zimmer{
-	background-color:red;
-	xpadding-top:400px;
+	background-color:#f6aa72;
+	xpadding-top:000px;
+
 }	
 	
 .zimmer:after{
@@ -132,21 +134,34 @@ h2.uschrift{
 	display:table;
 }	
 
-}.box{
-	width:40%;
-	background-color:yelow;
+.box{
+	width:38.5%;
+	xbackground-color:yellow;
 	float:left;
+	margin-left:6.6%;
 }
 
-}.zbox{
-	width:30%;
-	height:250px;
-	background-color:red;
-	
+.zbox{
+	width:100%;
+	height:300px;
+	background-color:gray;
+	margin-top:150px;
+
 }
-	
-
-
+.rechts-container{
+	width:38.5%;
+	xbackground-color:yellow;
+	float:right;
+	margin-right:10%;
+}	
+.boxschrift{
+	margin:0;
+	padding-top:30px;
+	font-family:helvetica;
+	font-weight:bold;
+	font-size:2em;
+	margin:0px auto auto 6.5%;
+}
 
 
 
