@@ -1,7 +1,9 @@
-form{
-background-color:#c0e4cb;
 
+
+form{
+background-color:#f2c6a5;
 }
+
 fieldset{
 	border:none;
 	border-top:1px solid silver;
@@ -65,9 +67,5 @@ button{
 	background-position:center;
 }
 
-h4.mapText,
-iframe{
-margin-left: 20px;
 
-}
 
