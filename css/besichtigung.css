@@ -1,0 +1,33 @@
+/*-----banner---*/
+p:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.banner{
+	background-image:url(../images/maare.png);
+	xbackground-size:cover;
+	background-position: center;
+	display: flex;
+	align-items: center;
+	justify-content:center;
+	xheight: calc(100vh - 50px);
+	height:400px;
+}
+
+.hgrund{
+	background-color:#faaa70;
+	padding:6.6%;
+}
+
+
+.coch{
+	font-family:helvetica;
+	font-size:2.5vw;
+}
+img{
+	float:left;
+}
+
+
