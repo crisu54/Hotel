@@ -31,9 +31,9 @@ h2{
 }
 
 .spalte{
-	height:750px;
+	display:table;
 	background-color:#c1c1c0;
-	width:100%
+	width:100%;
 }
 .drei_spalten{
 width:24%;
@@ -68,7 +68,8 @@ p {
 }
 .raum{
 	background-color:#f6a263;
-	height:1400px;
+
+
 	
 }
 .zwei_spalten{
