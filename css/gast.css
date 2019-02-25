@@ -68,7 +68,7 @@ p {
 }
 .raum{
 	background-color:#f69f60;
-		clear:left;
+
 }
 .rlinks{
 	background-color:#f3c29e;
@@ -89,6 +89,7 @@ p {
 }
 .linke_spalte{
 	width:50%;
+	float:left;
 }
 .rechte_spalte{
 	width:50%;
@@ -99,7 +100,11 @@ p {
 }
 .unten{
 	background-color: #733507;
-}	
+}
+/* .fass{
+	width:70%;
+	
+}	 */	
 
 
 
