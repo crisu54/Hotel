@@ -23,7 +23,7 @@ p:after {
 
 .ufont{
 	font-family:helvetica;
-	font-size:1.5vw;
+	font-size:1.9vw;
 	line-height:60px;
 }
 img{
@@ -45,28 +45,27 @@ p.fliestext{
 	padding-left:6.6%;
 
 }
-/* .fl-box:after{
+.fl-box:after{
 	clear:both;
 	content:"";
 	display:table;
-} */
+}
 
 .fl-box{
-	xheight:500px;
-	xbackground-color:blue;
-	width:92%;
+	width:80%;
 }
 
 .fl-box{
 	display:flex;
 	padding-top:30px;
 	justify-content:space-between;
-	flex-wrap:no-wrap;
+	flex-wrap:wrap;
 	align-content: center;
 }
 
-.item{
+.block img{
 	background-color: pink;
-	width:20%;
+	width:40%;
 	margin:20px;
 	font-family:helvetica;
+}
