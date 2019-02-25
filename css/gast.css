@@ -7,7 +7,7 @@ p:after {
 
 .banner{
 	background-image:url(../images/speisesaal.png);
-	xbackground-size:cover;
+	background-size:cover;
 	background-position: center;
 	display: flex;
 	align-items: center;
@@ -67,5 +67,39 @@ p {
 	font-family:helvetica;
 }
 .raum{
-	background-color:red;
+	background-color:#f69f60;
+		clear:left;
 }
+.rlinks{
+	background-color:#f3c29e;
+	width:60%;
+	float:left;
+	margin-left:6.6%;
+}	
+	
+.raum:after{
+	content:"";
+	display:table;
+	clear:both;
+}
+.doppelspalte:after{
+	content:"";
+	display:table;
+	clear:both;
+}
+.linke_spalte{
+	width:50%;
+}
+.rechte_spalte{
+	width:50%;
+	display:inline-block;
+}	
+.unten img{
+	float:right;
+}
+.unten{
+	background-color: #733507;
+}	
+
+
+
