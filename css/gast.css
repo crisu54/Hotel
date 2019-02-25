@@ -50,7 +50,7 @@ xbackground-color:gray;
 }
 
 h2.osteria{
-	font-size:2.2em;
+	font-size:2.2vw;
 	color:red;
 }
 h2{
@@ -63,11 +63,11 @@ h3{
 }
 
 p {
-	font-size:1.1em;
+	font-size:1.1vw;
 	font-family:helvetica;
 }
 .raum{
-	background-color:#f69f60;
+	background-color:#f3c29e;
 
 }
 .rlinks{
@@ -88,25 +88,46 @@ p {
 	clear:both;
 }
 .linke_spalte{
-	width:50%;
+	width:45%;
 	float:left;
 }
 .rechte_spalte{
-	width:50%;
+	width:45%;
 	display:inline-block;
+	margin-left:5%;
 }	
 .unten img{
 	float:right;
 }
 .unten{
 	background-color: #733507;
+	    margin-top: 15%;
+    width: 95%;
 }
-/* .fass{
-	width:70%;
+.fass{
+	width:90%;
 	
-}	 */	
+}		
 .flasche img{
 	width:33.4%;
 }
+
+.terrasse {
+	width:100%;
+}
+.umg{
+	color: #facdad;
+	font-family: cursive;
+	padding:1%;
+	font-size:1.9vw;
+}
+.ltext{
+	color: #facdad;
+	font-family: cursive;
+	padding:1%;
+	font-size:1vw;
+	
+}
+
 
 

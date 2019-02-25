@@ -16,18 +16,57 @@ p:after {
 	height:400px;
 }
 
-.hgrund{
-	background-color:#faaa70;
+.bcontainer{
+	background-color:#e5e2e2;
 	padding:6.6%;
 }
 
-
-.coch{
+.ufont{
 	font-family:helvetica;
-	font-size:2.5vw;
+	font-size:1.5vw;
+	line-height:60px;
 }
 img{
 	float:left;
+	width:500px;
+	margin:2%;
+;
+}
+p.fliestext{
+	font-family:helvetica;
+	font-size:1.2vw;
+	margin-left:0%;
+	width:90%;
+
+}
+.bes-box{
+	clear:both;
+	background-color:#fe9243;
+	padding-left:6.6%;
+
+}
+/* .fl-box:after{
+	clear:both;
+	content:"";
+	display:table;
+} */
+
+.fl-box{
+	xheight:500px;
+	xbackground-color:blue;
+	width:92%;
 }
 
+.fl-box{
+	display:flex;
+	padding-top:30px;
+	justify-content:space-between;
+	flex-wrap:no-wrap;
+	align-content: center;
+}
 
+.item{
+	background-color: pink;
+	width:20%;
+	margin:20px;
+	font-family:helvetica;
