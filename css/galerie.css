@@ -1,0 +1,34 @@
+header{
+margin:.8vw;
+font-size:0;
+display:-ms-flexbox;
+-ms-flexbox-wrap:wrap;
+-ms-flexbox-direction:column;
+-webkit-flex-flow:row wrap;
+flex-flow:row wrap;
+display:-webkit-box;
+display:flex;
+padding-left:5.5%
+
+}
+header div{
+	-webkit-box-flex:auto;
+	-ms-flex:auto;
+	width:400px;
+	margin: .5vw;
+}
+
+header div img{
+	width:100%;
+	height:auto;
+}
+
+@media screen and (max-width: 400px){
+	header div{
+	margin:0;
+}
+
+header{
+	padding: 0;
+ }
+	}

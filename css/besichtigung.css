@@ -26,11 +26,11 @@ p:after {
 	font-size:1.9vw;
 	line-height:60px;
 }
-img{
+#float img{
 	float:left;
 	width:500px;
 	margin:2%;
-;
+
 }
 p.fliestext{
 	font-family:helvetica;
@@ -39,33 +39,37 @@ p.fliestext{
 	width:90%;
 
 }
-.bes-box{
-	clear:both;
-	background-color:#fe9243;
-	padding-left:6.6%;
 
-}
-.fl-box:after{
+/* .fle-box:after{
 	clear:both;
 	content:"";
 	display:table;
-}
-
-.fl-box{
-	width:80%;
-}
-
-.fl-box{
+} */
+.fle_container{
+	background-color:#fe9243;
+	width:100%;
 	display:flex;
-	padding-top:30px;
-	justify-content:space-between;
-	flex-wrap:wrap;
-	align-content: center;
-}
+	flex-direction:column;
+	padding-left:5.0%;
 
-.block img{
-	background-color: pink;
-	width:40%;
-	margin:20px;
+}
+.item1{
+	background-color:grey;
+	width:80%;
+	margin:30px;
+
+
+
+}
+.item1 img{
+	float:left;
+
+
+}
+h2.uschrift{
+	xpadding-right:2%;
+	font-size:2.3vw;
 	font-family:helvetica;
 }
+
+
