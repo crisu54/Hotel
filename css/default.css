@@ -1,147 +1,173 @@
-.banner{
-	background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../images/hotel.png);
-	background-size:cover;
-	background-position: center;
-	display: flex;
-	align-items: center;
-	justify-content:center;
-	height: calc(100vh - 50px);
-}
-.banner h2{
-	text-transform: uppercase;
-	color: #ffff;
-	font-size: 60px;
-	font-family: cursive;
-}
-
-#banner{
-	background-image:url(../images/hotel.png);
-	background-color:red;
-	background-size:cover;
-	height:860px;
-	display:inline-box;
-	clear:both;
-}
-.hgrund{
-	background-color:#dec197;
-}
-.hgrund:after{
-	clear:both;
-	content:"";
-	display:table;
-}
-h2{
+body{
 	margin:0;
 }
-
-.welcome{
-	width:40%;
-	float:left;
-	padding: 5% 10% 0 7%;
+#logo-wrapper{
+	width:100%;
+	background-color:#8e8066;
+	overflow:auto;
 }
 
-.wcom{
-	font-family:Helvetica;
-	font-size:3em;
-	color:#83590c
+.blogo{
+	vertical-align: middle; 
 }
-
-.teco{
-	font-size:0.9em;
-	font-family:helvetica;
-}
-
-#sidebar{
-	width:40%;
+.blogo img{
+	margin:0px;
+	position:relative;
+	top:-35px;
 	display:inline-block;
-	padding-top:5%;
-}
-.seite{
-	width:80%;
-	background-color:#d0cfcc;
-	border:dashed 4px #acaba9;
-  border-radius: 20px;
-	padding:1%;
-	padding-right:10%;
-}
-.bewa{
-	font-family:verdana;
-	padding-left:20px;
-	color:#83590c;
-	font-size:2.1vw;
-}
-ul.liste{
-	font-size:1.2em;
-	line-height:30px;
-	font-family:Helvetica;
-}
-#main{
-	clear:both;
-	background-color:#bdbbb9;
+	float:left;
 }
 
-.fcontainer{
-	display:flex;
-	padding-top:30px;
-	justify-content: center;
-	flex-wrap:no-wrap;
-	align-content: center;
+.blogo,  img, .button, .fa-bars {
+    transition: all 300ms;
 }
-.item{
-	background-color: pink;
-	width:25%;
+
+.blogo:hover {
+	opacity: 0.5; 
+}
+
+
+.blogo h1{
+	background: rgba(255, 255, 255, 0.3);
+	font-size:8vw;
+	color:red;
+	padding-left: 20%;
+}
+/* navigation---  */
+.nav *{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+.nav a{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	background: black;
+	height: 70px;
+	font-weight: bold;
+	font-family: verdana;
+	text-decoration: none;
+	text-transform:uppercase;
+}
+
+.nav{
+	position:sticky;
+	top:0;
+}
+.nav a:hover{
+	background: tomato;
+	color: #fff;
+}
+
+.nav ul{
+	list-style: none;
+	display: flex;
+}
+
+.nav ul li{
+	position: relative;
+	width: 100%;
+	text-align: center;
+}
+.nav li:hover .dropdown-1 >  li{
+	top: 0;
+	display: block;
+}
+
+.dropdown-1 li{
+	display: none;
+	position: relative;
+}
+
+.dropdown-1 {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.dropdown-1 li:hover .dropdown-2 li {
+	display: block;
+}
+
+.dropdown-2 li{
+	display: none;
+}
+
+.dropdown-2 {
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	top: 0;
+	left: 100%;
+	width: 200px;
+}
+	/*--------------Ende Navigation-------------------*/
 	
-	margin:20px;
-	padding:1%;
+	/*--------------Footerbereich-------------------*/	
+	#footer{
+	background-color:black;
+	padding:30px;
+}
+.schiff{
+	width:35%;
+	padding-left:4.5%;
+	display:inline-block;
+	float:left;
+}
+.schiff a{
+	display:block;
+}
+
+.schiff p{
+	color:white;
 	font-family:verdana;
 }
-h2.uschrift{
-	font-size:2.1vw;
-	line-height:60px;
-}
-.item img{
+
+.schiff img{
 	width:100%;
 }
-
-.item:nth-child(2){
-	background-color:#f8d696;
-	
+.pers{
+	font-size:35px;
+	font-family:helvetica;
+	color: white;
+	padding-left:50px;
 }
-
-.item:first-child, .item:last-child {
-	background-color:#a54c0b;
-	color:white;
-}
-	
-h2{
-	margin-bottom:-10px;
-	animation-name:drive;
-	animation-duration:5s;
-	transform:translateX(600px);
-	
-}	
-
-/* h2{
- transition: 2s;
-}
-h2:hover{
-	transform: rotate(45deg);
-} */
-h2{
-	animation-name: drive;
-	animation-duration:3s;
-}
-
-
-@keyframes drive{
-	from{ transform:translateX(-200px)}
-	to{from{ transform:translateX(1500px)}
+.pe{
+	float:left;
+	padding-left:50px;
 	}
+.pe li{
+	list-style:none;
+	font-size:20px;
+	color:white;
+	font-family:helvetica;
+}
+.kont{
+	font-size:35px;
+	font-family:helvetica;
+	color: white;
+	padding-left:38px;
+}
 
+.ko{
+	float:left;
+	padding-left:50px;
+}
 
+.ko li{
+	list-style:none;
+	font-size:20px;
+	color:white;
+	font-family:helvetica;
+}
+.container:after{
+	clear:left;
+	display:table;
+	content:"";
+}
 
-
-
-
-
-
+	/*--------------Ende Footerbereich-------------------*/	

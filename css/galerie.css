@@ -1,5 +1,6 @@
-header{
-margin:.8vw;
+.bildg{
+margin:.9vw;
+background-color:#f69f60;
 font-size:0;
 display:-ms-flexbox;
 -ms-flexbox-wrap:wrap;
@@ -8,27 +9,54 @@ display:-ms-flexbox;
 flex-flow:row wrap;
 display:-webkit-box;
 display:flex;
-padding-left:5.5%
+
 
 }
-header div{
+.bildg div{
 	-webkit-box-flex:auto;
 	-ms-flex:auto;
 	width:400px;
 	margin: .5vw;
+
 }
 
-header div img{
+.bgalerie{
+	text-align:center;
+	margin-top:20px;
+	font-family:helvetica;
+	font-size:3.5vw;
+	background-color:#804011;
+	padding:0;
+	margin:0;
+	color:white;
+	
+}
+
+header.bildg{
+	margin:0;
+	padding:0;
+	padding-left:6.2%;
+}
+
+.bildg div img{
 	width:100%;
 	height:auto;
 }
 
+.bildg img:hover {
+    transform: scale(1.8);
+}
+
+.bildg img {
+    width: 240px;
+}
+
 @media screen and (max-width: 400px){
-	header div{
+	.bildg div{
 	margin:0;
 }
 
-header{
+.bildg{
 	padding: 0;
  }
 	}

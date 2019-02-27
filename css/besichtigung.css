@@ -16,35 +16,98 @@ p:after {
 	height:400px;
 }
 
-.bcontainer{
-	background-color:#e5e2e2;
-	padding:6.6%;
+.zwei-spa-raum{
+	background-color:red;
+			margin-top:5%
 }
-
-.ufont{
-	font-family:helvetica;
-	font-size:1.9vw;
-	line-height:60px;
-}
-#float img{
+/* .zwei-spa-raum:after{
+        content:"";
+        display:table;
+        clear:both;
+} */
+.linke_cburg{
+	width:40%;
 	float:left;
-	width:500px;
-	margin:2%;
+	xbackground-color:yellow;
+	padding-left:6.6%;
 
 }
-p.fliestext{
+.links-sp img {
+	width:50%;
+	background-size:cover;
+	float:left;
+	padding:1%
+}
+
+.rechts-cburg{
+	width:40%;
+	display:inline-block;
+	margin-left:5%;
+	background-color:#fac59f;
+	padding:1.5%;
+	border-radius: 35px;
+	-webkit-box-shadow: 0px 10px 13px -7px #000000, 7px 9px 21px -2px rgba(0,0,0,0); 
+box-shadow: 0px 10px 13px -7px #000000, 7px 9px 21px -2px rgba(0,0,0,0);
+}
+
+.sw{
+	font-size:1.8vw;
+	font-family:roboto;
+	color:#733507;
+}
+
+fliestext{
 	font-family:helvetica;
 	font-size:1.2vw;
 	margin-left:0%;
-	width:90%;
-
+	width:100%;
 }
 
-/* .fle-box:after{
-	clear:both;
-	content:"";
-	display:table;
-} */
+.ureich{
+	color:#733507;
+	font-size:1.9em;
+	font-family:roboto;
+}
+
+
+/* Zähler Überschrift */
+.gschrift{
+	counter-increment:kapitelzaehler ;	
+	counter-reset:unterkapitelzaehler;
+	}
+	
+.gschrift:before{
+	content: counter(kapitelzaehler) " ";	
+}
+
+.kschrift{
+	counter-increment:unterkapitelzaehler;
+	color:#733507;
+	font-size:1.2em;
+	font-family:roboto;
+	line-height: 0.4;
+}
+.kschrift:before{
+	content: counter(kapitelzaehler) "." counter(unterkapitelzaehler, decimal-leading-zero) " ";
+}
+.kschrift:nth-child(2n+0) {
+  Color: gray;
+	font-size:1.4em;
+}
+
+.gschrift:nth-child(even) {
+  background: gray;
+	color:white;
+	font-size:1.8em;
+	font-family:roboto;
+}
+.gschrift:last-child {
+	background: #733507;
+	color:white;
+	font-size:1.8em;
+	font-family:roboto;
+}	
+
 .fle_container{
 	background-color:#fe9243;
 	width:100%;
@@ -53,23 +116,64 @@ p.fliestext{
 	padding-left:5.0%;
 
 }
-.item1{
-	background-color:grey;
-	width:80%;
-	margin:30px;
-
-
-
-}
-.item1 img{
-	float:left;
-
+div.item1,
+div.item2,
+div.item3,
+div.item4{
+	width:88%;
+	margin:4% 1.6%;
+	background-size:over;
+	overflow:hidden;
 
 }
+
+.item1 p,
+.item2 p,
+.item3 p,
+.item4 p{
+	margin-left:40%;
+	font-size:1.4vw;
+	padding:2%
+}
+
 h2.uschrift{
-	xpadding-right:2%;
+	margin-left:42%;
 	font-size:2.3vw;
 	font-family:helvetica;
 }
+
+.item1 img:after{
+        content:"";
+        display:table;
+        clear:both;
+}
+
+.item1 img,
+.item2 img,
+.item3 img,
+.item4 img{
+	float:left;
+	width:40%;
+	background-size:cover;
+}
+
+
+.item2 img{
+	float:left;
+	width:40%;
+	background-size:cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
