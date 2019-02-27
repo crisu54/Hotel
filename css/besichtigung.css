@@ -17,14 +17,15 @@ p:after {
 }
 
 .zwei-spa-raum{
-	background-color:red;
-			margin-top:5%
+	background-color:#f8d6bd;
+			margin-top:0%;
+			padding-top:5%;
 }
-/* .zwei-spa-raum:after{
+.links-sp:after{
         content:"";
         display:table;
         clear:both;
-} */
+}
 .linke_cburg{
 	width:40%;
 	float:left;
@@ -86,7 +87,6 @@ fliestext{
 	font-size:1.2em;
 	font-family:roboto;
 	margin:0;
-
 }
 .kschrift:before{
 	content: counter(kapitelzaehler) "." counter(unterkapitelzaehler, decimal-leading-zero) " ";

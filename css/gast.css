@@ -98,11 +98,12 @@ p {
 }	
 .unten img{
 	float:right;
+	width:44%;
 }
 .unten{
 	background-color: #733507;
-	    margin-top: 15%;
-    width: 95%;
+	margin-top: 15%;
+  width: 95%;
 }
 .fass{
 	width:90%;
