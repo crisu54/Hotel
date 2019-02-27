@@ -85,7 +85,8 @@ fliestext{
 	color:#733507;
 	font-size:1.2em;
 	font-family:roboto;
-	line-height: 0.4;
+	margin:0;
+
 }
 .kschrift:before{
 	content: counter(kapitelzaehler) "." counter(unterkapitelzaehler, decimal-leading-zero) " ";
